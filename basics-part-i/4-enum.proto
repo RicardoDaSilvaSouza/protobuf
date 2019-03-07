@@ -20,7 +20,7 @@ message Person {
     repeated string phones = 7;
 
     enum EyeColor {
-        UNKKOW_COLOR = 0;
+        UNKNOWN_COLOR = 0;
         BLUE = 1;
         BROWN = 2;
         GREEN = 3;
