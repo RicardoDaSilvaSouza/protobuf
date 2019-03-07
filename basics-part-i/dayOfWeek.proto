@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-enum Day {
+enum DayOfWeek {
     UNDEFINED = 0;
     SUNDAY = 1;
     MONDAY = 2;
@@ -9,8 +9,4 @@ enum Day {
     THURSDAY = 5;
     FRIDAY = 6;
     SATURDAY = 7;
-}
-
-message DayOfWeek {
-    Day day = 1;
 }
