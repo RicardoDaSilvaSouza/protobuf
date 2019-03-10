@@ -1,0 +1,7 @@
+// IntelliJ
+.gradle/*
+gradle/*
+.idea/*
+
+// Generated resources
+build/*
